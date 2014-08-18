@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300,700);
+body {
+	margin: 0 auto;
+	width:960px;
+	min-width:500px;
+	background-color:#ECECEC;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weght: 400;
+	font-size:16px;
+	text-align:center;
+	text-transform:lowercase;
+	line-height:24px;
+	color: #4C4C4C;
+}
+p {
+	font-size:.75em;
+	font-weight: 200;
+	line-height: 1.5em;
+	
+}
+.paragraphSpacing {
+	margin-top:1em;
+}
+header {
+	padding: 20px 0;
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 1.5em;
+	color: #484848;
+}
+h2 {
+	font-size: 1.15em;
+	font-weight: 300;
+	color: #4C4C4C;
+}
+input[type=button] {
+	cursor: pointer;
+}
+
+.hr {
+	margin: 0 auto;
+	width: 250px;
+	border-bottom: 1px solid #C4C4C4
+}
+form input {
+	color: #525249;
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+}
+input[type=text] {
+	color: #7B6C6C;
+	font-size: 1em;
+	padding: 3px;
+	width: 250px;
+	
+}
+
+ul {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 290px;
+}
+.around {
+	border: 1px solid #C4C4C4;
+	border-radius: 8px;
+
+}
+li {
+	color:#7B6C6C;
+	width: 200px;
+	cursor: pointer;
+	margin: 10px auto;
+	border-top-right-radius: 5px;
+	border: 1px solid #C4C4C4;
+	background:url(../images/spriteSheet.png) no-repeat 18px -28px;
+	background-color: white;
+}
+li:hover {
+	background-color: #D6D9DB;
+	opactiy: 0.6;
+}
+li.clicked {
+	background:url(../images/spriteSheet.png) no-repeat 18px 1px;
+	background-color: #8B9499;
+	text-decoration:line-through;
+	color:#EBEBEB;
+}

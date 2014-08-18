@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+<!--stylesheets-->
+	<link href="css/reset.css" type="text/css" rel="stylesheet">
+	<link href="css/main.css" type="text/css" rel="stylesheet">
+	<!--jquery-->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<title>The Shopping List</title>
+</head>
+<body>
+<div class="wrapper_body">
+<div class="wrapper_header">
+	<h1>The Shopping List</h1>
+	<h6>Input your items in the list below</h6>
+</div><!--end Wrapper_header-->
+<form>
+	<input type="text" name="shoppingItem" id="item" placeholder="Don't Forget to buy" />
+	<input type="submit" name="add" value ="Add" class="addBtn"/>
+<!--create add form list here-->
+	<ul id="shoppingList">
+    	<li><input type="checkbox" name="gritem" value="FirstItem"><input type="text"></li>
+        <li><input type="checkbox" name="gritem" value="SecondItem"><input type="text"></li>
+        <li><input type="checkbox"  name="gritem" value="ThirdItem"><input type="text"></li>
+        <li><input type="checkbox" name="gritem" value="FourthItem" checked="checked"><input type="text" class="checked"></li>
+        <li><input type="checkbox" name="gritem" value="FifthItem" checked="checked"><input type="text" class="checked"></li>
+	</ul>
+	<div class="button">
+		<input id="checkAll_btn" type="button" value="select all" disabled>
+		<input id="reset_btn" type="button" value="complete" disabled>
+	</div>
+</form>
+</div><!--end wrapper_body-->
+</body>
+
+</html>

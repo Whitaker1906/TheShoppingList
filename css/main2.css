@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300,700);
+body {
+	margin: 0 auto;
+	width:960px;
+	min-width:500px;
+	background-color:#ECECEC;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weght: 400;
+	font-size:16px;
+	text-align:center;
+	text-transform:lowercase;
+	line-height:24px;
+	color: #4C4C4C;
+}
+header {
+	padding: 20px 0;
+}
+h1 {
+	font-size: 2.5em;
+	line-height: 1.5em;
+	color: #484848;
+}
+h2 {
+	font-size: 1.15em;
+	font-weight: 300;
+	color: #4C4C4C;
+}
+.hr {
+	margin: 0 auto;
+	width: 250px;
+	border-bottom: 1px solid #C4C4C4
+}
+form input {
+	color: #525249;
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0px 0px;
+	box-shadow: inset 0px 0px;
+}
+input[type=text] {
+	color: #7B6C6C;
+	font-size: 1em;
+	padding: 3px;
+	width: 250px;
+	
+}
+/* input hover state for add button*/
+form input#submit:hover {
+}
+/* input hover state for select and complete button */
+
+ul {
+	margin: 0 auto;
+/*	outline: 1px solid green;
+*/	margin-top: 20px;
+	width: 350px;
+	border: 1px solid #C4C4C4;
+	border-radius: 8px;
+}
+li {
+	cursor: pointer;
+	margin: 5px 0;
+	background:url(../images/spriteSheet.png) no-repeat 18px -25px;
+}
+li input {
+/*	outline: 1px solid red;
+*/	color:inherit;
+	cursor: pointer;
+	border-top-right-radius: 5px;
+	border: 1px solid #C4C4C4;
+	
+}
+li.selected {
+	background:url(../images/spriteSheet.png) no-repeat 18px 3px;
+}
+li input:hover {
+	background-color: #D6D9DB;
+	opactiy: 0.6;
+}
+li input:focus {
+	color:inherit;
+}
+li input.clicked {
+	background-color: #8B9499;
+	text-decoration:line-through;
+	color:#EBEBEB;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>TextBox</title>
+</head>
+<body>
+<h2>Display value of two textbo in another textbox using jquery</h2>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type = "text/javascript">
+$(document).ready(function() {
+	$('#firstname, #lastname').keyup(function () {
+		var a = $('#firstname').val();
+		var b = $('#lastname').val();
+		var c = a + ' ' + b;
+		$('#fullname').val(c);
+		});
+	});
+</script>
+Fisrt name:-<input type="text" id="firstname" ></input>
+Last Name:-<input type="text" id="lastname" ></input>
+Full Name:-<input type="text" id="fullname" ></input>
+</body>
+
+</html>

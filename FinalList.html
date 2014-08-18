@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--stylesheet-->
+<link rel="stylesheet" href="css/reset.css" type="text/css">
+<link rel="stylesheet" href="css/final.css" type="text/css">
+
+<!--script-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><!--Google CDN-->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script><!--Microsoft CDN-->
+<script type="text/javascript" src="js/app.js"></script>
+
+<title>the shopping list</title>
+</head>
+
+<body>
+<header><!--header-->
+<h1>the shopping list</h1>
+<div class="hr"></div>
+<h2>Add your items below</h2>
+</header><!--end Header-->
+<main>
+  		<form id="ShoppingList" name="frmShoppingList">
+      		<input type="text" name="textfield" id="textfield">
+      		<input type="button" name="addBtn" id="addBtn" value="add">
+            </form>
+            <ul id="itemContainer">
+            	
+				<!--
+				<li>Apples</li>
+                <li>Oranges</li>
+                <li>Tigers</li>
+                <li class="clicked">Bears</li>
+                <li class="clicked">OHMy</li>
+-->
+            </ul>
+            
+            <div class="endbutton"><!--begin Buttons-->
+		<input id="selectAll" type="button" value="select all" >
+		<input id="resetAll" type="button" value="complete" >
+			</div><!--end endButton-->
+			<!--instuctions-->
+			<div class="paragraphSpacing"><p>Click to "Select"</p>
+            <p>Double Click to "Delete"</p></div>
+</main>
+
+</body>
+</html>

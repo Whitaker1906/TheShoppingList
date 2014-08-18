@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--stylesheet-->
+<link rel="stylesheet" href="css/reset.css" type="text/css">
+<link rel="stylesheet" href="css/main2.css" type="text/css">
+
+<title>the shopping list (basic)</title>
+</head>
+
+<body>
+<header><!--header-->
+<h1>the shopping list</h1>
+<div class="hr"></div>
+<h2>Add your items below</h2>
+</header><!--end Header-->
+<main>
+  		<form id="ShoppingList" name="frmShoppingList">
+      		<input type="text" name="textfield" id="textfield">
+      		<input type="button" name="addBtn" id="addBtn" value="add">
+            </form>
+            <ul>
+            	<li><input id="inputtxt" type="text" name="txtItem1"></li>
+                <li><input type="text" name="txtItem2"></li>
+                <li><input type="text" name="txtItem3"></li>
+                <li class="selected"><input class="clicked" type="text" name="txtItem4"></li>
+                <li class="selected"><input class="clicked" type="text" name="txtItem5"></li>
+            </ul>
+            <div class="endbutton"><!--begin Buttons-->
+		<input id="selectAll" type="button" value="select all" disabled>
+		<input id="resetAll" type="button" value="complete" disabled>
+			</div><!--end endButton-->
+</main>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script><!--Google CDN-->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script><!--Microsoft CDN-->
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

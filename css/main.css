@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400,300,700);
+body {
+	background: #272727 url(../images/Grocery_bg.jpg) no-repeat top center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-bakground-size: cover;
+	background-size: cover;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align:center;
+	text-transform:lowercase;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+h1 {
+	font-size: 3.75em;
+	color: #EBEBEB;
+	text-align: center;
+	margin-bottom:.5em;
+}
+h6 {
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #EBEBEB;
+}
+.wrapper_body {
+	min-width:550px;
+	outline: 3px solid red;
+	margin: 0 auto;
+}
+.wrapper_header {
+	outline: 2px solid blue;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+form input[type=text] {
+	font-size: 1em;
+	padding: 9px;
+	border-radius: 5px;
+	background-color: #EBEBEB;
+	width: 250px;
+	border: 1px solid #272727;
+	color: #D99D2A;
+	margin-right: 10px;
+}
+ul {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #272727;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+li input {
+	margin-left: 2px;
+	height: 10px;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	color: red;
+	cursor:pointer;
+}
+li input[type=checkbox] {
+	width:2.15em;
+	height:2.15em;
+}
+li input.checked {
+	background-color: #FDD17D;
+	border: 1px solid #FDB731;
+	opacity:0.8;
+}
+	
+.addBtn {
+	background-color: #272727;
+	color: #FDB731;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: lowercase;
+	width: 100px;
+	padding: 5px;
+	border-width: thin;
+	border-radius: 7px;
+	cursor: pointer;
+	min-height: 38px;
+}
+	
+.button input {
+	background-color: #272727;
+	color: #FDB731;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1.25em;
+	text-align: center;
+	text-transform: lowercase;
+	width: 100px;
+	padding: 5px;
+	border-width: thin;
+	border-radius: 7px;
+	cursor: pointer;
+	margin: 5px;
+}
+
+	
